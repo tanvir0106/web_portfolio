@@ -45,17 +45,131 @@ nav a {
     background: #FD6E0A;
     border: 0;
     color: var(--White-Color, #FFF);
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding: 15px 36px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 36px;
 
     ;
 }
-.hdr{ background-color: #FFF8F3;}
-.call{background-color: #FFF;
-    width: 1600px;
-    height: 837px;
-    flex-shrink: 0;}
+
+.hdr {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.call {
+    background-color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 36px;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align: center;
+    justify-content: space-between;
+}
+
+.bnr_cnt {
+    max-width: 500px;
+}
+
+.hi {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.mary {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.shot {
+    margin-top: 110px;
+}
+
+/*main start*/
+.main {
+
+    max-width: 1140px;
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1140px;
+height: 550px;
+flex-shrink: 0;
+margin: 0 auto;
+
+
+}
+
+.scs-prgf {
+    color: var(#757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+
+}
+
+.scs-ttl {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+
+
+    margin: 137px;
+}
+
+.about-info-cnt {
+    display: flex;
+    justify-content: space-around;
+}
+.about-infi{text-align: center;}
+.skills{display: flex;
+justify-content: space-around;}
+.what-i-do{width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+margin: 0 auto;}
+
+.skill-dt{
+
+    width: 267px;
+height: 377px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+margin: 50px 12px;
+}
+
+.skills-dskrptn{color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+padding: 20px 33px 30px 33px;}
